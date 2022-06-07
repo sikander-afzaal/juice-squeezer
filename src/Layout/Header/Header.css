@@ -1,0 +1,33 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0px;
+  border-bottom: 1px solid #433a37;
+}
+.logo-div {
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.central-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.nav-links {
+  padding: 7px 10px;
+  text-decoration: none;
+  width: fit-content;
+  border-radius: 10px;
+  background: linear-gradient(to top, #433a37, #6f6a64);
+  border: none;
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.4rem;
+  cursor: pointer;
+}

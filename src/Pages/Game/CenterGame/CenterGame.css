@@ -1,0 +1,49 @@
+.center-game {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-inline: 10px;
+  padding-top: 10px;
+  gap: 20px;
+  height: 100%;
+}
+.center-game img {
+  max-width: 400px;
+  object-fit: contain;
+}
+.prize-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-inline: 20px;
+  gap: 30px;
+}
+.prize-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.left-prize-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-prize-row h2,
+.prize-row h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.prize-row h1 {
+  font-size: 2rem;
+}
+@media screen and (max-width: 1400px) {
+  .center-game img {
+    max-width: 375px;
+  }
+}
