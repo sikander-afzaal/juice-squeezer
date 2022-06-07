@@ -8,6 +8,8 @@
   padding-top: 10px;
   gap: 20px;
   height: 100%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
 }
 .center-game img {
   max-width: 400px;
@@ -33,6 +35,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 3rem 0rem;
 }
 .left-prize-row h2,
 .prize-row h2 {

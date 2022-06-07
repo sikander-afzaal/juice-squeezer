@@ -1,11 +1,14 @@
 import React from "react";
 import "./CenterGame.css";
 import img from "../../../Assets/juicer.jpeg";
+import Chart from "../../../Components/Chart/Chart";
 function CenterGame() {
   return (
     <div className="center-game">
       <img src={img} alt="" />
-      <div className="graph">graph</div>
+      <div className="graph">
+        <Chart />
+      </div>
       <div className="prize-div">
         <h1 className="heading">Prize Pools</h1>
         <div className="prize-row">
