@@ -3,15 +3,17 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  padding-inline: 10px;
+  padding-right: 10px;
   padding-top: 10px;
   width: 100%;
+  max-height: calc(100vh - 88px);
   overflow-y: auto;
+  padding-bottom: 1rem;
 }
 .top-right {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
   width: 100%;
 }
 .right-box {
@@ -21,16 +23,21 @@
   flex-direction: column;
   gap: 10px;
   flex: 1;
+  background-color: #8a9e27;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid white;
 }
 .right-box svg {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 20px;
+  color: white;
 }
 .right-box h2 {
-  width: min-content;
+  width: fit-content;
   text-align: center;
   color: white;
   font-weight: 400;

@@ -10,10 +10,20 @@
   height: 100%;
   border-left: 2px solid white;
   border-right: 2px solid white;
+  max-height: calc(100vh - 88px);
+  overflow-y: auto;
+  padding-bottom: 1rem;
 }
 .center-game img {
   max-width: 400px;
   object-fit: contain;
+}
+.graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 3rem 0rem;
 }
 .prize-div {
   display: flex;
@@ -27,8 +37,11 @@
 .prize-row {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
+  background-color: #8a9e27;
+  border: 1px solid black;
+  padding: 10px;
 }
 .left-prize-row {
   display: flex;
@@ -36,20 +49,16 @@
   align-items: center;
   flex-direction: column;
 }
-.graph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 3rem 0rem;
-}
+
 .left-prize-row h2,
 .prize-row h2 {
   font-size: 1.5rem;
   text-transform: uppercase;
+  color: white;
 }
 .prize-row h1 {
   font-size: 2rem;
+  color: white;
 }
 @media screen and (max-width: 1400px) {
   .center-game img {

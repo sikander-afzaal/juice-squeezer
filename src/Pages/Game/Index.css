@@ -2,6 +2,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  padding-bottom: 2rem;
   column-gap: 20px;
+}
+.left-game::-webkit-scrollbar,
+.right-game::-webkit-scrollbar,
+.center-game::-webkit-scrollbar {
+  display: none;
+}
+.left-game,
+.right-game,
+.center-game {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
